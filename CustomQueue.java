@@ -23,7 +23,7 @@ public class CustomQueue<T> {
 
     public T dequeue() {
         if (front == null) {
-            throw new RuntimeException("Queue is empty");
+            throw new RuntimeException("Queue is empty now");
         }
         T data = front.data;
         front = front.next;
